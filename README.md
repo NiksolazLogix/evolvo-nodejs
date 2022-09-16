@@ -5,4 +5,12 @@ create simple backend in node.js express..js
 
 `yarn install`
 
+# for start with Typescript
+`yarn dev:ts`
+
+
+# for start with Javacsript with hot reload
+`yarn dev`
+
+# for start with Javacsript without hot reload
 `yarn start`
