@@ -1,9 +1,8 @@
 'use strict'
-
-import express, { Request, Response } from 'express';
-import {Datatest} from './modules/moduletest';
-
+const express = require('express');
 const app = express()
+// import { Request, Response } from 'express';
+import {Datatest} from './src/modules/moduletest';
 
 require('dotenv').config();
 
@@ -14,7 +13,7 @@ const { log } = console
 const HOST = process.env.HOST || 'localhost';
 const PORT = process.env.PORT || 3000;
 
-app.get('/', (req: Request, res: Response) => {
+app.get('/', (_, res: any) => {
     res.json({
         title: 'Typescript',
         status:  res.status,

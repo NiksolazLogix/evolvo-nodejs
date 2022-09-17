@@ -6,7 +6,7 @@ export class Datatest {
     }
 
     private start() {
-        return 'Hello'
+        return 'Hello Typescript'
     }
 }
 
