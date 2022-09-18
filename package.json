@@ -5,9 +5,9 @@
   "main": "app.js",
   "scripts": {
     "test": "jest",
-    "dev": "nodemon app.js",
-    "dev:ts": "tsc app.ts --watch",
-    "start": "node app.js"
+    "dev": "nodemon src/app.js",
+    "dev:ts": "tsc src/app.ts --watch",
+    "start": "node src/app.js"
   },
   "repository": {
     "type": "git",

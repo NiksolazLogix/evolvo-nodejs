@@ -3,7 +3,7 @@ exports.__esModule = true;
 var express = require('express');
 var app = express();
 // import { Request, Response } from 'express';
-var moduletest_1 = require("./src/modules/moduletest");
+var moduletest_1 = require("./modules/moduletest");
 require('dotenv').config();
 var dt = new moduletest_1.Datatest();
 var log = console.log;

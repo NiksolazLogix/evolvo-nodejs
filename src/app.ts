@@ -2,7 +2,7 @@
 const express = require('express');
 const app = express()
 // import { Request, Response } from 'express';
-import {Datatest} from './src/modules/moduletest';
+import {Datatest} from './modules/moduletest';
 
 require('dotenv').config();
 
