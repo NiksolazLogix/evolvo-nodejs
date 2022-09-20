@@ -1,4 +1,4 @@
-const {Datatest} = require('../src/modules/moduletest.js');
+const {Datatest} = require('../dist/modules/moduletest.js');
 const dt = new Datatest()
 
 describe("moduletest", () => {
