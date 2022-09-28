@@ -13,6 +13,10 @@ const { log } = console
 const HOST = process.env.HOST || 'localhost';
 const PORT = process.env.PORT || 3000;
 
+app.get('/', (req:any, res: any) => {
+    res.send('Home Page')
+})
+
 app.get('/?email=:email', (req:any, res: any) => {
     return res.json({
         title: 'Typescript',
